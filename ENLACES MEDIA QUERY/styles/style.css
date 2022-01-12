@@ -1,0 +1,50 @@
+body
+{
+    background-color: rosybrown;
+   
+}
+
+
+li
+{
+    display: inline;
+    
+}
+
+li>a
+{
+    text-decoration: none;
+    background-color: sienna;
+    color: white;
+    padding: 10px;
+}
+
+li>a:hover
+{
+    background-color: rgb(190, 103, 103);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .lechuga
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) 
+{
+    .pepinillo
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .tomate
+    {
+        display: none;
+    }
+}
